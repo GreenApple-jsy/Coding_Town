@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -48,7 +48,6 @@ public class RankingManagement : MonoBehaviour
                 }
             }
         });
-        
 
     }
 
@@ -137,6 +136,5 @@ public class RankingManagement : MonoBehaviour
         [DynamoDBProperty]
         public bool login_status { get; set; }
     }
-
     
 }
